@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[remote "aws"]
+	url = https://github.com/awslabs/aws-waf-security-automations.git
+	fetch = +refs/heads/*:refs/remotes/aws/*
